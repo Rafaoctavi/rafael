@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Rafael Jiménez - Curriculum Profesional</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 2px solid #3498db;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 36px;
+            margin: 0;
+            font-weight: 700;
+        }
+        
+        h2 {
+            color: #3498db;
+            font-size: 24px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        
+        .profile-section {
+            display: flex;
+            margin-bottom: 30px;
+            align-items: center;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #3498db;
+            margin-right: 30px;
+        }
+        
+        .personal-info {
+            flex: 1;
+        }
+        
+        .info-item {
+            margin-bottom: 10px;
+        }
+        
+        .info-label {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        .job, .education-item {
+            margin-bottom: 20px;
+        }
+        
+        .job-title, .degree {
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 18px;
+        }
+        
+        .company, .institution {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        
+        .period {
+            color: #95a5a6;
+            font-size: 14px;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .contact-icon {
+            margin-right: 10px;
+            color: #3498db;
+        }
+        
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .profile-section {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .profile-img {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Rafael Octavio Jiménez Dudamel</h1>
+            <p>Profesional en Ventas y Atención al Cliente</p>
+        </header>
+        
+        <section class="profile-section">
+            <img src="./foto.jpeg" alt="Foto de perfil de Rafael Jiménez" class="profile-img">
+            <div class="personal-info">
+                <div class="info-item">
+                    <span class="info-label">Cédula:</span> 31.025.775
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Lugar de nacimiento:</span> Barquisimeto, Venezuela
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Disponibilidad:</span> Disponible
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Perfil Profesional</h2>
+            <p>Profesional con amplia experiencia en ventas, atención al cliente y manejo de inventarios. Capacidad demostrada para trabajar en equipo, resolver problemas y alcanzar objetivos comerciales. Orientado al detalle y con excelentes habilidades de comunicación.</p>
+        </section>
+        
+        <section class="section">
+            <h2>Experiencia Laboral</h2>
+            
+            <div class="job">
+                <div class="job-title">Vendedor - Almacenista - Cajero</div>
+                <div class="company">Cole Haan</div>
+                
+                <ul>
+                    <li>Atención personalizada al cliente y asesoramiento en productos</li>
+                    <li>Manejo de caja registradora y procesos de pago</li>
+                    <li>Control de inventario y reposición de mercancía</li>
+                    <li>Logro de metas de ventas mensuales</li>
+                </ul>
+            </div>
+            
+            <div class="job">
+                <div class="job-title">Vendedor - Almacenista - Cajero</div>
+                <div class="company">Dekathlon</div>
+                
+                <ul>
+                    <li>Atención al cliente en área deportiva</li>
+                    <li>Manejo de sistema de inventarios</li>
+                    <li>Procesamiento de pagos y transacciones</li>
+                </ul>
+            </div>
+            
+            <div class="job">
+                <div class="job-title">Ventas y Distribución de Dulces</div>
+                <div class="company">Octavius Bakery</div>
+                
+                <ul>
+                    <li>Gestión de pedidos y distribución de productos</li>
+                    <li>Relación con clientes y proveedores</li>
+                    <li>Control de stock y mercadería</li>
+                </ul>
+            </div>
+            
+            <div class="job">
+                <div class="job-title">Vendedor</div>
+                <div class="company">Todo para su Ford</div>
+                
+                <ul>
+                    <li>Asesoramiento en repuestos automotrices</li>
+                    <li>Prospección de clientes</li>
+                    <li>Manejo de cotizaciones</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Educación</h2>
+            <div class="education-item">
+                <div class="degree">Educacion Secundaria</div>
+                <div class="institution">Colegio Independencia</div>
+                <div class="degree">Educacion Universitaria</div>
+                <div class="institution">Instituto Universitario Jesus Obrero (Informatica)</div>
+                
+               
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Contacto</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <span>Los Cardones, Urb. La Rosaleda, Calle C #44</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📱</span>
+                    <span>0414-5069536</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">✉️</span>
+                    <a href="mailto:roctavioj@gmail.com">roctavioj@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📷</span>
+                    <a href="https://www.instagram.com/rafaeloctavioj/" target="_blank">@rafaeloctavioj</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
